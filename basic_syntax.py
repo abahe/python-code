@@ -19,3 +19,15 @@ if milk_count > 0:
 else:
     print("budi not buying anything")
 
+# repeat for
+sum_book = 10
+print('read all books!')
+
+readed_book = 0
+print(f'Has been read : {readed_book}')
+
+for readed_book in range(1, sum_book+1):
+    print(f"Book {readed_book} has been read")
+
+print(f'Has been read : {readed_book}')
+
