@@ -20,14 +20,22 @@ else:
     print("budi not buying anything")
 
 # repeat for
-sum_book = 10
+sum_book = 5
 print('read all books!')
 
 readed_book = 0
 print(f'Has been read : {readed_book}')
 
-for readed_book in range(1, sum_book+1):
-    print(f"Book {readed_book} has been read")
+# for readed_book in range(1, sum_book+1):
+#     print(f"Book {readed_book} has been read")
 
 print(f'Has been read : {readed_book}')
 
+print("----")
+print("----")
+
+while readed_book < sum_book:
+    readed_book = readed_book + 1
+    print(f"book {readed_book} has been read")
+
+print(f'Has been read : {readed_book}')
