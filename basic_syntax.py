@@ -39,3 +39,5 @@ while readed_book < sum_book:
     print(f"book {readed_book} has been read")
 
 print(f'Has been read : {readed_book}')
+
+# okay
